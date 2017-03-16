@@ -12,7 +12,7 @@ body {
     background: #3d1a11;
     margin: 0;
     font-family: sans-serif;
-    text-align: center
+    text-align: center;
 }
 
 input[type=radio] {
@@ -20,7 +20,10 @@ input[type=radio] {
 }
 
 label {
-    background-color: #563429;
+    background-color: center 0.5em #563429;
+    background-size: 4em;
+    background-repeat: no-repeat;
+    background-position: center top;
     color: white;
     display: block;
     font-size: 75%;
@@ -38,6 +41,13 @@ label[for=opcao-bebidas] {
 
 input[type=radio]:checked+label {
     background-color: #e4876d;
+}
+
+label {
+    width: 50%;
+    position: fixed;
+    bottom: 0;
+    z-index: 1;
 }
 
 label[for=opcao-bolos] {
