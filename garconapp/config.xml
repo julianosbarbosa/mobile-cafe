@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="org.julianobarbosa.garconapp" version="1.0.0" 
-    xmlns="http://www.w3.org/ns/widgets" 
-    xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.julianobarbosa.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Garçon Só de Cenoura</name>
     <description>App para o uso dos garçons dentro do restaurante</description>
-    <author href="http://juliano-silva-barbosa.esy.es/" email="julianoestudos@gmail.com">Juliano barbosa</author>
-   
-    <preferences name="Orientation" value="portrait"/>
-    <preferences name="Fullscreen" value="true"/>
-    <preferences name="BackgoundColor" value="0xF2F2F2FF"/>
+    <author email="julianoestudos@gmail.com" href="http://juliano-silva-barbosa.esy.es/">Juliano barbosa</author>
+    <preferences name="Orientation" value="portrait" />
+    <preferences name="Fullscreen" value="true" />
+    <preferences name="BackgoundColor" value="0xF2F2F2FF" />
+    <plugin name="cordova-plugin-splashscreen" spec="~4.0.2" />
+    <plugin name="cordova-plugin-statusbar" spec="~2.2.2" />
+    <preferences name="StatusBarBackgroundColor" value="#E86C13" />
 </widget>

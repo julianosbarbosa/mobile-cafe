@@ -9,6 +9,12 @@
     "installed_plugins": {
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "org.julianobarbosa.garconapp"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "org.julianobarbosa.garconapp"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "org.julianobarbosa.garconapp"
         }
     },
     "dependent_plugins": {}

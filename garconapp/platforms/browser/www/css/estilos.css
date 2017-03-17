@@ -7,7 +7,7 @@ body {
 }
 
 .titulo {
-    font-size: 1.3em;
+    font-size: 1.3rem;
     margin-left: 5%;
     margin-right: auto;
 }
@@ -15,10 +15,10 @@ body {
 .topo-fixo {
     position: fixed;
     top: 0;
-    width: 100;
     z-index: 2;
+    width: 100%;
 }
 
 .section {
-    padding: 125px;
+    padding-top: 125px;
 }

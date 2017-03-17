@@ -12,7 +12,7 @@ $('#confirmar').on('click', function() {
         var produto = this.firstChild.textContent;
         var quatidade = this.lastChild.textContent;
 
-        texto += produto + ': ' + quatidade + ', ';
+        texto += produto + ': ' + quatidade + ' ,';
     });
     $('#resumo').text(texto);
 });
