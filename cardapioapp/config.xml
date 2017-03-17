@@ -2,11 +2,11 @@
 <widget 
     xmlns="http://www.w3.org/ns/widget" 
     xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="org.julianobarbosa.cenouraapp">
-    <name>Só de Cenoura</name>
+    <name>Cardapio Só de Cenoura</name>
     <description>Menu do café Só de Cenoura</description>
     <author href="http://juliano-silva-barbosa.esy.es/" email="julianoestudos@gmail.com">Juliano barbosa</author>
     <icon src="icon.png"/>
-    <gap:splash src="splash.png"/>
+    <preferences name="LoadUrlTimeoutValue" value="5000" src="splash.png"/>
     <preferences name="orientation" value="portrait"/>
     <preferences name="fullscreen" value="true"/>
     <gap:platform name="android"/>
