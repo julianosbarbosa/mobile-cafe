@@ -1,9 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="org.julianobarbosa.garconapp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="BarcodeScanner">
+        <param name="browser-package" value="BarcodeScanner" />
+    </feature>
     <name>Garçon Só de Cenoura</name>
     <description>App para o uso dos garçons dentro do restaurante</description>
     <author email="julianoestudos@gmail.com" href="http://juliano-silva-barbosa.esy.es/">Juliano barbosa</author>
     <preferences name="Orientation" value="portrait" />
     <preferences name="Fullscreen" value="true" />
     <preferences name="BackgoundColor" value="0xF2F2F2FF" />
+    <preference name="StatusBarBackgroundColor" value="#E86C13" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
 </widget>

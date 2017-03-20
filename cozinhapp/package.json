@@ -1,0 +1,18 @@
+{
+    "name": "cozinhapp",
+    "version": "1.0.0",
+    "description": "aplicativo da cozinha que recebe solicitações dos aplicativos dos garções",
+    "main": "cozinhapp.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "gulp": "gulp"
+    },
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "author": "",
+    "license": "ISC"
+}

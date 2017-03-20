@@ -7,13 +7,7 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "org.julianobarbosa.garconapp"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "org.julianobarbosa.garconapp"
-        },
-        "cordova-plugin-statusbar": {
+        "phonegap-plugin-barcodescanner": {
             "PACKAGE_NAME": "org.julianobarbosa.garconapp"
         }
     },
